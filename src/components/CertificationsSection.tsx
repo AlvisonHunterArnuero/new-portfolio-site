@@ -12,18 +12,11 @@ import { Button } from './ui/button';
 
 const certifications = [
   {
-    label: 'Survey Contributor - Adoption Report',
+    label: 'AWS Certified Cloud Practitioner',
     imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/v1696364197/agileAdoption_uozwtc.png',
+      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155098/al-hunter-website/04_mhcxcd.webp',
     badgeDetails:
-      'https://www.credly.com/badges/52abf1bb-c773-4232-9111-a217a915ec79/public_url ',
-  },
-  {
-    label: 'Business Model Canvas Essentials',
-    imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/v1696364197/businessModelCanvas_fqlvta.png',
-    badgeDetails:
-      'https://www.credly.com/badges/38f4c6af-c56f-4381-af78-5937bf9c079b/public_url',
+      'https://www.youracclaim.com/badges/f84162e8-bce5-42d6-925f-d98a4ff3512a',
   },
   {
     label: 'Introduction to Cybersecurity by Cisco',
@@ -33,11 +26,18 @@ const certifications = [
       'https://www.credly.com/badges/954a4089-37ea-49c0-918b-9eca6b5c916b/public_url',
   },
   {
-    label: 'Scrum Foundations Certified Expert - SFCE',
+    label: 'Python for Data Science',
     imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:eco/v1632155097/al-hunter-website/01_dywjdx.webp',
+      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155097/al-hunter-website/06_jdwc29.webp',
     badgeDetails:
-      'https://api.badgr.io/public/assertions/dZAOT4ZUTTin4BFuOuve7w?identity__email=alvison%40gmail.com',
+      'https://www.youracclaim.com/badges/d44d27c1-6630-45fb-9425-0f5891d45de8',
+  },
+  {
+    label: 'Data Science Tools',
+    imageUrl:
+      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155096/al-hunter-website/09_ekrpdt.webp',
+    badgeDetails:
+      'https://www.credly.com/badges/6e27ef9d-d5ac-4768-bb48-524b512e11b1/public_url',
   },
   {
     label: 'Container Bootcamp - Fundamentals',
@@ -54,11 +54,25 @@ const certifications = [
       'https://api.badgr.io/public/assertions/xV6qPD4nQ2W-X5EGh-DiPg?identity__email=alvison%40gmail.com',
   },
   {
-    label: 'AWS Certified Cloud Practitioner',
+    label: 'Survey Contributor - Adoption Report',
     imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155098/al-hunter-website/04_mhcxcd.webp',
+      'https://res.cloudinary.com/alvison-hunter/image/upload/v1696364197/agileAdoption_uozwtc.png',
     badgeDetails:
-      'https://www.youracclaim.com/badges/f84162e8-bce5-42d6-925f-d98a4ff3512a',
+      'https://www.credly.com/badges/52abf1bb-c773-4232-9111-a217a915ec79/public_url ',
+  },
+  {
+    label: 'Business Model Canvas Essentials',
+    imageUrl:
+      'https://res.cloudinary.com/alvison-hunter/image/upload/v1696364197/businessModelCanvas_fqlvta.png',
+    badgeDetails:
+      'https://www.credly.com/badges/38f4c6af-c56f-4381-af78-5937bf9c079b/public_url',
+  },
+  {
+    label: 'Scrum Foundations Certified Expert - SFCE',
+    imageUrl:
+      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:eco/v1632155097/al-hunter-website/01_dywjdx.webp',
+    badgeDetails:
+      'https://api.badgr.io/public/assertions/dZAOT4ZUTTin4BFuOuve7w?identity__email=alvison%40gmail.com',
   },
   {
     label: 'Scrum Foundation Professional Certificate',
@@ -66,13 +80,6 @@ const certifications = [
       'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155097/al-hunter-website/05_uiicyb.webp',
     badgeDetails:
       'https://www.youracclaim.com/badges/833754e8-4e94-42f9-ad21-d8129ae14e45',
-  },
-  {
-    label: 'Python for Data Science',
-    imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155097/al-hunter-website/06_jdwc29.webp',
-    badgeDetails:
-      'https://www.youracclaim.com/badges/d44d27c1-6630-45fb-9425-0f5891d45de8',
   },
   {
     label: 'Trained in Scrum Essentials',
@@ -87,13 +94,6 @@ const certifications = [
       'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155096/al-hunter-website/08_yr65pr.webp',
     badgeDetails:
       'https://www.credly.com/badges/1be59885-98c2-4efa-921d-03310facbb4d/public_url',
-  },
-  {
-    label: 'Data Science Tools',
-    imageUrl:
-      'https://res.cloudinary.com/alvison-hunter/image/upload/q_auto:low/v1632155096/al-hunter-website/09_ekrpdt.webp',
-    badgeDetails:
-      'https://www.credly.com/badges/6e27ef9d-d5ac-4768-bb48-524b512e11b1/public_url',
   },
 ];
 

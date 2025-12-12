@@ -64,7 +64,9 @@ const HeroSection = () => {
               </Button>
               <Button variant="heroOutline" size="lg">
                 <a
-                  href="src/cv/ahunter2026CV.pdf"
+                  href="/cv/ahunter2026CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
                   <Download className="w-5 h-5" />
