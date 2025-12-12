@@ -40,14 +40,14 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-3">
             <Button variant="heroOutline" size="sm">
               <a
-                href="src/cv/ahunter2026CV.pdf"
+                href="/cv/ahunter2026CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
                 <Download className="w-4 h-4" />
                 Download CV
               </a>
-
-
             </Button>
             <Button variant="hero" size="sm" asChild>
               <a href="#contact">Contact</a>
