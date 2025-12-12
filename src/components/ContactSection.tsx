@@ -2,6 +2,11 @@ import { Button } from '@/components/ui/button';
 import { Mail, Phone, Send } from 'lucide-react';
 
 const ContactSection = () => {
+
+  const user = 'alvison';
+  const domain = 'gmail.com';
+  const email = `${user}@${domain}`;
+
   return (
     <section id="contact" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 pointer-events-none">
@@ -34,10 +39,10 @@ const ContactSection = () => {
                 Drop Us an E-mail
               </h3>
               <a
-                href="mailto:alvison@gmail.com"
+                href={`mailto:${email}`}
                 className="text-primary hover:underline font-mono text-sm"
               >
-                alvison@gmail.com
+                {email}
               </a>
             </div>
 
@@ -49,10 +54,10 @@ const ContactSection = () => {
                 Old-Fashioned Phone Calls
               </h3>
               <a
-                href="tel:+5058863.8751"
+                href="tel:+50588638751"
                 className="text-primary hover:underline font-mono text-sm"
               >
-                505.8863.8751
+                +505 8863 8751
               </a>
             </div>
           </div>
