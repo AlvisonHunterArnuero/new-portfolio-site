@@ -7,7 +7,7 @@ import {
   Mail,
 } from 'lucide-react';
 
-import photoSrc from '/alvison-hunter.png';
+import photoSrc from '/alvison-hunter-profile.png';
 
 const HeroSection = () => {
   const PHOTO_URL = photoSrc;
