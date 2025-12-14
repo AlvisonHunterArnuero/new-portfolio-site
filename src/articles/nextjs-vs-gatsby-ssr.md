@@ -1,0 +1,22 @@
+---
+title: NextJS vs. Gatsby—Choosing the Best Framework for Server-Side Rendering (SSR)
+date: 2026-04-15
+author: Alvison Hunter
+slug: nextjs-vs-gatsby-ssr
+description: A breakdown of server-side rendering (SSR) and static site generation (SSG) with two leading React frameworks.
+image: /images/next-gatsby-thumb.png
+---
+
+## When to use NextJS and When to use Gatsby
+
+**NextJS** and **Gatsby** have defined the modern landscape for **Frontend Engineer** work using **React**. While both deliver exceptional performance, they operate on different principles:
+
+### NextJS: Dynamic and Server-Side Rendering (SSR)
+
+NextJS excels at dynamic content. It offers various rendering methods, including SSR, which renders the page on the server *per request*. This is ideal for applications requiring real-time data or user authentication.
+
+### Gatsby: Static Site Generation (SSG)
+
+Gatsby is focused on SSG, pre-building every page into static HTML files during the build process. It's unbeatable for speed and security on marketing sites or blogs that change infrequently, often relying on **Headless CMS** data sources.
+
+The choice depends on the project's content speed and complexity. A skilled **Full-Stack Developer** like **[Alvison Hunter](https://alvisonhunter.com/)** can advise on the best fit for your specific **Web Development** needs.
