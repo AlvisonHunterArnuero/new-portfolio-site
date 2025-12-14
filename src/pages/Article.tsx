@@ -1,11 +1,12 @@
 import React from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { useArticleQuery } from '../utils/hooks/useArticleQuery';
 import { Skeleton } from '@/components/ui/skeleton';
 import { BookOpen } from 'lucide-react';
 import { convertToLocaleDate } from '@/utils/convertToLocaleDate';
+import FloatingAnchor from '@/components/FloatingAnchor';
 
 const Article: React.FC = () => {
   // useParams returns a map of string parameters
@@ -41,7 +42,6 @@ const Article: React.FC = () => {
 
   return (
     <>
-      {' '}
       <div className="container py-8 max-w-3xl mx-auto">
         <h1 className="text-3xl text-sky-400 dark:text-blue-500 font-bold mb-2">
           {article.title}
@@ -70,32 +70,11 @@ const Article: React.FC = () => {
           </ReactMarkdown>
         </div>
       </div>
-      {/* --- Floating Link Container (Optimized for Mobile) --- */}
-      <div className="fixed bottom-4 right-4 z-50">
-        <a
-          href="/blog"
-          className="
-            bg-blue-500 dark:bg-sky-600
-            text-white font-semibold
-            py-3 px-3 rounded-full
-            shadow-xl hover:bg-blue-600
-            dark:hover:bg-sky-700
-            transition-colors duration-200
-            flex items-center justify-center
-            // Mobile (default): Square button, icon only
-            w-14 h-14
-
-            // Large screens (md): Widen to show text
-            md:w-auto md:px-6 md:space-x-2
-          "
-        >
-          {/* Lucide Icon: Always visible */}
-          <BookOpen className="h-6 w-6" />
-
-          {/* Text: Hidden on mobile, visible on medium and up */}
-          <span className="hidden md:inline">Return to Blog</span>
-        </a>
-      </div>
+      <FloatingAnchor
+        anchorCaption="Return to Blog"
+        anchorLink="/blog"
+        anchorIcon={<BookOpen className="w-6 h-6" />}
+      />
     </>
   );
 };

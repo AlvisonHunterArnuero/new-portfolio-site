@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Download } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -8,7 +9,6 @@ const navLinks = [
   { href: '#services', label: 'Services' },
   { href: '#portfolio', label: 'Portfolio' },
   { href: '#certifications', label: 'Certifications' },
-  { href: '/blog', label: 'Blog' },
 ];
 
 const Navbar = () => {
@@ -39,6 +39,12 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
+            <Link
+              to="/blog"
+              className="nav-link px-4 py-2 text-sm text-primary/95 hover:text-foreground transition-colors"
+            >
+              My Blog
+            </Link>
           </div>
 
           <div className="hidden md:flex items-center gap-3">

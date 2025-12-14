@@ -1,7 +1,7 @@
-// src/pages/BlogIndex.tsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { House } from 'lucide-react';
+
 import {
   useAllArticlesQuery,
   ArticleData,
@@ -15,6 +15,7 @@ import {
   CardFooter,
 } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
+import FloatingAnchor from '@/components/FloatingAnchor';
 
 type ArticleMetadata = Omit<ArticleData, 'content'>;
 
@@ -75,21 +76,22 @@ const BlogIndex: React.FC = () => {
                 </CardDescription>
               </CardHeader>
               <CardFooter className="text-xs text-purple-400 w-full flex justify-start">
-                  Posted On:{' '}
-                  {new Date(article.date).toLocaleDateString(
-                    'en-US',
-                    {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    }
-                  )}
-
+                Posted On:{' '}
+                {new Date(article.date).toLocaleDateString('en-US', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}
               </CardFooter>
             </Card>
           </Link>
         ))}
       </div>
+      <FloatingAnchor
+        anchorCaption="Return to Home"
+        anchorLink="/"
+        anchorIcon={<House className="w-6 h-6" />}
+      />
     </div>
   );
 };
