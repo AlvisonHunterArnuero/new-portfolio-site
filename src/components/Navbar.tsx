@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { HashLink as AnchorLink } from 'react-router-hash-link';
 
 const navLinks = [
   { href: '#about', label: 'About' },
@@ -9,10 +10,16 @@ const navLinks = [
   { href: '#services', label: 'Services' },
   { href: '#portfolio', label: 'Portfolio' },
   { href: '#certifications', label: 'Certifications' },
+  { href: '#contact', label: 'Contact' },
 ];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Function to close menu on mobile click
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
@@ -20,24 +27,27 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <h1>
             {' '}
-            <a
-              href="#"
+            {/* Logo Link: Uses HashLink for scrolling to the top (#) */}
+            <AnchorLink
+              to="/#top" // Link to the top of the current page
+              smooth // Smooth scrolling enabled
               className="font-mono text-lg font-bold text-gradient"
             >
               AH<span className="text-primary">.</span>
-            </a>
+            </AnchorLink>
           </h1>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
             {navLinks.map((link) => (
-              <a
+              <AnchorLink
                 key={link.href}
-                href={link.href}
+                to={link.href}
+                smooth
                 className="px-4 py-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {link.label}
-              </a>
+              </AnchorLink>
             ))}
             <Link
               to="/blog"
@@ -60,7 +70,9 @@ const Navbar = () => {
               </a>
             </Button>
             <Button variant="hero" size="sm" asChild>
-              <a href="#contact">Contact</a>
+              <AnchorLink to="/#contact" smooth>
+                Contact
+              </AnchorLink>
             </Button>
           </div>
 
@@ -82,14 +94,15 @@ const Navbar = () => {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
-                <a
+                <AnchorLink
                   key={link.href}
-                  href={link.href}
+                  to={link.href}
+                  smooth
                   className="px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-secondary rounded-lg transition-all"
-                  onClick={() => setIsOpen(false)}
+                  onClick={handleLinkClick}
                 >
                   {link.label}
-                </a>
+                </AnchorLink>
               ))}
               <div className="flex gap-3 mt-4 px-4">
                 <Button
@@ -106,9 +119,10 @@ const Navbar = () => {
                   className="flex-1"
                   asChild
                 >
-                  <a href="#contact" onClick={() => setIsOpen(false)}>
+                  {/* Internal Anchor Link: Uses AnchorLink */}
+                  <AnchorLink to="/#contact" smooth>
                     Contact
-                  </a>
+                  </AnchorLink>
                 </Button>
               </div>
             </div>

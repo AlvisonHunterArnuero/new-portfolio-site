@@ -6,6 +6,7 @@ import {
   Linkedin,
   Mail,
 } from 'lucide-react';
+import { HashLink as AnchorLink } from 'react-router-hash-link';
 
 import photoSrc from '/alvison-hunter-profile.png';
 
@@ -57,10 +58,10 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
               <Button variant="hero" size="lg" asChild>
-                <a href="#portfolio">
+                <AnchorLink to="#portfolio" smooth>
                   View My Work
                   <ArrowRight className="w-5 h-5" />
-                </a>
+                </AnchorLink>
               </Button>
               <Button variant="heroOutline" size="lg">
                 <a
