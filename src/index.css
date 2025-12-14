@@ -75,6 +75,7 @@
   h5,
   h6 {
     font-family: 'Inter', sans-serif;
+    color: whitesmoke;
   }
 
   .font-mono {
@@ -122,6 +123,54 @@
     pointer-events: none;
   }
 }
+
+/* Target the .prose container and its children */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  color: #d1d5db;
+}
+
+.prose p {
+  color: #ffffff;
+}
+
+.prose p code {
+  color: #FACC15;
+}
+
+.prose strong a,
+a {
+  color: #6366F1;
+}
+
+
+.prose p strong,
+a {
+  color: #6366F1;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6 {
+  color: #FACC15;
+}
+
+.dark .prose p {
+  color: #d1d5db;
+}
+
+.dark .prose strong a,
+.dark .prose a {
+  color: #F59E0B;
+}
+
 
 @layer utilities {
   .animate-float {

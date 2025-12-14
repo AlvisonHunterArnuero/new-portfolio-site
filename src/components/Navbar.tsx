@@ -1,13 +1,14 @@
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Menu, X, Download } from "lucide-react";
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Menu, X, Download } from 'lucide-react';
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills-Set" },
-  { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#certifications", label: "Certifications" },
+  { href: '#about', label: 'About' },
+  { href: '#skills', label: 'Skills-Set' },
+  { href: '#services', label: 'Services' },
+  { href: '#portfolio', label: 'Portfolio' },
+  { href: '#certifications', label: 'Certifications' },
+  { href: '/blog', label: 'Blog' },
 ];
 
 const Navbar = () => {
@@ -17,12 +18,15 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <a
-            href="#"
-            className="font-mono text-lg font-bold text-gradient"
-          >
-            AH<span className="text-primary">.</span>
-          </a>
+          <h1>
+            {' '}
+            <a
+              href="#"
+              className="font-mono text-lg font-bold text-gradient"
+            >
+              AH<span className="text-primary">.</span>
+            </a>
+          </h1>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">

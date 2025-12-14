@@ -1,0 +1,173 @@
+# Alvison Hunter - Software Engineer
+
+## Contact Information
+- **Email:** alvison@gmail.com
+- **Phone:** +505 8863 8751
+- **Website:** https://alvisonhunter.com/
+- **Company:** CodeCrafters Labs (Founder & Managing Partner)
+
+## Professional Summary
+Full-Stack Software Engineer specializing in scalable web applications, modern frontend frameworks, and cloud-native backend solutions with 6+ years of experience in web development, delivering scalable, secure, and high-performance applications.
+
+## Technical Stack
+
+### Programming Languages
+- JavaScript
+- TypeScript
+- Python
+- C#
+- Golang (currently expanding)
+- Elixir (currently expanding)
+- Rust (currently expanding)
+
+### Frontend Technologies
+- React
+- Vue.js
+- Angular / AngularJS
+- Next.js
+- Gatsby
+- EmberJS
+- jQuery
+
+### Backend Technologies
+- Node.js
+- Express
+- GraphQL
+- REST APIs
+- Flask
+- FastAPI
+- Bottle
+- ASP.NET Web API
+- Spring Boot (Java)
+
+### Databases
+- MongoDB
+- PostgreSQL
+- MySQL
+- SQL Server
+
+### Python Data Science & ML Libraries
+- NumPy
+- Pandas
+- Matplotlib
+- PyTorch
+- Scikit-learn
+- TensorFlow
+
+### CMS & Headless CMS
+- Contentful
+- Strapi
+- Sanity
+- KeystoneJS
+- NetlifyCMS
+
+### UI Libraries & Frameworks
+- Mantine Library
+- Tailwind CSS
+- Material UI
+- Semantic UI
+- Materialize
+- BootStrap
+- Lucide
+- Tabler
+
+### Cloud & DevOps
+- AWS
+- Docker
+- CI/CD
+
+### Analytics & Monitoring
+- Amplitude AI analytics
+- MixPanel Analytics
+- Sentry IO
+- Datadog
+
+### APIs & Third-Party Services
+- Llama API
+- DeepL API
+- Auth0
+- AgentSync
+- Salesforce
+- DocuSign
+- ProducerSync API
+- HubSpot
+- Zendesk
+- LivePerson
+- GenesysCloud
+- Intercom Messenger
+
+### State Management
+- Redux
+- Context API
+
+### Project Management Tools
+- Jira
+- Trello
+- Notion
+- ClickUp
+- Asana
+- Shortcut
+
+## Methodologies
+- Agile/Scrum
+- QA Testing
+
+## Portfolio Projects
+
+### MGT Insurance Onboarding
+Contributed to property and liability insurance onboarding software for business clients.
+**Tech Stack:** Next, TypeScript, Amplitude, Intercom Messenger, Mantine Library, Zod, Auth0, AgentSync, Salesforce, DocuSign, ProducerSync API, HubSpot
+
+### Udemy
+Delivered enhancements to the pricing page with improved filtering, sorting, & new enhanced shopping cart features.
+**Tech Stack:** React, Django, Python, Next.js, TypeScript, GraphQL, Tailwind CSS, Material UI, Sentry IO
+
+### Amni Network
+Collaborated on GMP compliance software with quote generation and sales order management features.
+**Tech Stack:** React, Context API, Internal API, TypeScript, Material UI, Datadog
+
+### Catalis
+Helped develop modernization of legacy court and land records systems into modern web applications.
+**Tech Stack:** NextJS, TypeScript, ASP.NET Web API, Tailwind CSS, Material UI, Axios
+
+### TrueHold
+Implemented sale-leaseback software with home equity calculation and financial analysis tools.
+**Tech Stack:** NextJS, TypeScript, Llama API, Tailwind CSS, Material UI, Spring Boot, Java, PostgreSQL
+
+### Chatlingual
+Designed and built front-end integrations for customer service platforms with multi-language translation.
+**Tech Stack:** React, Redux, TypeScript, SalesForce Lightning, Zendesk, LivePerson, GenesysCloud, DeepL API
+
+## Services Offered
+1. **UX/UI Design** - User-centered web app interfaces
+2. **Graphic Design** - Branding and visual identity
+3. **Web Development** - Full-stack web application development
+
+## Certifications
+- AWS Certified Cloud Practitioner
+- Introduction to Cybersecurity by Cisco
+- Python for Data Science
+- Data Science Tools
+- Container Bootcamp - Fundamentals
+- Container Bootcamp - Core
+- Survey Contributor - Adoption Report
+- Business Model Canvas Essentials
+- Scrum Foundations Certified Expert (SFCE)
+- Scrum Foundation Professional Certificate
+- Trained in Scrum Essentials
+- Docker Essentials: A Developer Introduction
+
+## Background
+- Started with Visual Basic and Borland Delphi 6
+- Progressed to ASP.NET with C#
+- Experienced in VBA for O365 and Google App Script
+- Former Head of Web Development and Quality Assurance
+
+## Personal
+- Polyglot fluent in five languages
+- Musician producing Chill-hop & Lo-Fi projects
+- Father of two children: Declan Jaleel and Liam André
+- Currently exploring: Golang, Elixir, Rust, Mandarin, and Lo-Fi Production
+
+## Unique Value Proposition
+Combination of technical expertise, leadership, and creativity with ability to mentor, innovate, and scale solutions. Thrives at the intersection of technology, team leadership, and product strategy.
