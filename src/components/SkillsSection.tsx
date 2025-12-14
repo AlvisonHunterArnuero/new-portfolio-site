@@ -1,27 +1,79 @@
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["JavaScript", "TypeScript", "React", "Vue.js", "Angular", "Next.js", "Gatsby", "EmberJS", "jQuery"],
+    title: 'Frontend',
+    skills: [
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Vue.js',
+      'Angular',
+      'Next.js',
+      'Gatsby',
+      'EmberJS',
+      'jQuery',
+    ],
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Express", "GraphQL", "REST APIs", "PostgreSQL", "MySQL", "MongoDB", "SQL Server"],
+    title: 'Backend',
+    skills: [
+      'Node.js',
+      'Express',
+      'GraphQL',
+      'REST APIs',
+      'PostgreSQL',
+      'MySQL',
+      'MongoDB',
+      'SQL Server',
+    ],
   },
   {
-    title: "Python",
-    skills: ["Flask", "FastAPI", "NumPy", "Pandas", "Matplotlib", "PyTorch", "Scikit-learn", "TensorFlow"],
+    title: 'Python',
+    skills: [
+      'Flask',
+      'FastAPI',
+      'NumPy',
+      'Pandas',
+      'Matplotlib',
+      'PyTorch',
+      'Scikit-learn',
+      'TensorFlow',
+    ],
   },
   {
-    title: "CMS & Tools",
-    skills: ["Contentful", "Strapi", "Sanity", "KeystoneJS", "NetlifyCMS", "Docker", "AWS", "CI/CD"],
+    title: 'CMS & Tools',
+    skills: [
+      'Contentful',
+      'Strapi',
+      'Sanity',
+      'KeystoneJS',
+      'NetlifyCMS',
+      'Docker',
+      'AWS',
+      'CI/CD',
+    ],
   },
   {
-    title: "Management",
-    skills: ["Agile/Scrum", "Jira", "Trello", "Notion", "Asana", "ClickUp", "Shortcut", "QA Testing"],
+    title: 'Management',
+    skills: [
+      'Agile/Scrum',
+      'Jira',
+      'Trello',
+      'Notion',
+      'Asana',
+      'ClickUp',
+      'Shortcut',
+      'QA Testing',
+    ],
   },
   {
-    title: "Exploring",
-    skills: ["Golang", "Rust", "Elixir", "Mandarin", "Lo-Fi Production"],
+    title: 'Exploring',
+    skills: [
+      'Golang',
+      'Rust',
+      'Elixir',
+      'Mandarin',
+      'Lo-Fi Production',
+    ],
   },
 ];
 
@@ -36,9 +88,10 @@ const SkillsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             My <span className="text-gradient">Technical Stack</span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            Full-Stack Software Engineer with 6+ years of experience in web development,
-            delivering scalable, secure, and high-performance applications.
+          <p className="text-muted-foreground max-w-3xl mx-auto">
+            Full-Stack Software Engineer with 7+ years of experience
+            building scalable, high-performance web applications with
+            modern JavaScript, TypeScript and Python ecosystems.
           </p>
         </div>
 
@@ -65,14 +118,49 @@ const SkillsSection = () => {
           ))}
         </div>
 
-        <div className="mt-16 max-w-4xl mx-auto">
+        <div className="mt-16 max-w-6xl mx-auto">
           <div className="p-6 rounded-xl border-gradient bg-card">
             <p className="text-muted-foreground leading-relaxed text-center">
-              <span className="text-foreground font-semibold">What sets me apart</span> is the combination of technical expertise, 
-              leadership, and creativity. I bring not only coding skills but also the ability to mentor, innovate, and scale solutions. 
-              I thrive at the intersection of technology, team leadership, and product strategy. Beyond tech, I am a{" "}
-              <span className="text-primary">polyglot fluent in five languages</span>, a musician producing Chill-hop & Lo-Fi projects, 
-              and a dedicated father—all of which inspire my creativity, discipline, and resilience.
+              <span className="text-foreground font-semibold">
+                What sets me apart
+              </span>{' '}
+              is the combination of technical expertise, leadership,
+              and creativity. I bring not only coding skills but also
+              the ability to mentor, innovate, and scale solutions. I
+              thrive at the intersection of technology, team
+              leadership, and product strategy. Beyond tech, I am a{' '}
+              <span className="text-primary">
+                polyglot fluent in five languages
+              </span>
+              , a
+              <a
+                href="https://www.pexels.com/@alvisonhunter/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary ml-1"
+              >
+                photography enthusiast
+              </a>
+              , deeply engaged in
+              <a
+                href="https://www.behance.net/alvisonhunter"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary ml-1"
+              >
+                graphic design and photo restoration
+              </a>
+              , a musician-in-progress producing
+              <a
+                href=" https://soundcloud.com/alvison-hunter/sets/biolofibility-album-demo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary mx-1"
+              >
+                Chill-hop, Hip Hop & Lo-Fi
+              </a>
+              projects, and a dedicated father—all of which shape my
+              creativity, discipline, and resilience in all life struggles.
             </p>
           </div>
         </div>

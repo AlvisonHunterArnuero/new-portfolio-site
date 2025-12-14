@@ -1,29 +1,48 @@
-import { Code2, Palette, Users, Heart } from "lucide-react";
+import {
+  Code2,
+  Palette,
+  Users,
+  Heart,
+  Baby,
+  Layers,
+} from 'lucide-react';
 
 const aboutCards = [
   {
     icon: Palette,
-    title: "Web & Graphic Design, Branding, UX/UI & Tech Enthusiast",
+    title: 'Web & Graphic Design, Branding, UX/UI & Tech Enthusiast',
     description:
-      "Experienced Frontend Web Developer proficient in jQuery, React, and more. Skilled in crafting GraphQL and REST APIs using NodeJS, Express, and MongoDB, with expertise in headless CMS like NetlifyCMS and Contentful.",
+      'Senior Frontend Engineer focused on crafting intuitive, accessible, and high-performance user interfaces. Experienced in responsive design, design systems, and component-driven architectures that seamlessly connect design and engineering.',
   },
   {
     icon: Code2,
-    title: "Web Development with JavaScript & Python Flask",
+    title: 'Web Development with JavaScript & Python',
     description:
-      "Experienced Python Developer specializing in Flask, Bottle, and FastAPI, with a strong focus on improving product delivery through continuous learning and testing. Proficient in Machine Learning libraries including NumPy, Pandas, Matplotlib, PyTorch, Scikit-learn, and TensorFlow. Currently expanding skills in Golang, Elixir, and Rust.",
+      'Frontend-focused Web Developer specializing in modern JavaScript and TypeScript frameworks such as React, Next.js, Vue, and Angular. Brings supporting backend experience with Python, Flask, FastAPI, Node.js, and API-driven systems.',
+  },
+  {
+    icon: Layers,
+    title: 'Frontend Architecture, Performance & Scalability',
+    description:
+      'Expert in building scalable frontend architectures with a strong emphasis on performance, maintainability, accessibility, and clean code. Passionate about long-term UI sustainability, optimized user flows, and real business impact.',
   },
   {
     icon: Users,
-    title: "Linguist, Musician, Proud Father of 2 Brave Warriors",
+    title: 'Engineering Leadership, Mentorship & Collaboration',
     description:
-      "I excel at seamless collaboration across diverse hierarchies and domains, with strong leadership skills. Proficient in Agile/Scrum, I master platforms like Jira, Trello, Notion, ClickUp, Asana, and Shortcut. My experience as Head of Web Development and Quality Assurance equips me with personnel management expertise.",
+      'Former Head of Web Development with experience leading teams in Agile environments. Skilled in mentoring developers, enforcing frontend standards, and collaborating cross-functionally to deliver high-quality software solutions.',
   },
   {
     icon: Heart,
-    title: "Founder & Managing Partner of CodeCrafters Labs",
+    title: 'Founder & Managing Partner of CodeCrafters Labs',
     description:
-      "I'm immensely proud to be the father of two extraordinary kids, Declan Jaleel and Liam André. Their unwavering bravery, exceptional brilliance, and lionhearted courage inspire me daily.",
+      'Founder of CodeCrafters Labs, mentoring aspiring developers through structured programs focused on modern frontend technologies, best practices, and real-world readiness for professional software careers.',
+  },
+  {
+    icon: Baby,
+    title: 'Proud Father of Two, Lifelong Learner',
+    description:
+      'Proud father of two incredible sons whose curiosity, resilience, and creativity inspire my discipline, leadership, and problem-solving mindset—values I bring into every project and professional relationship.',
   },
 ];
 
@@ -36,10 +55,14 @@ const AboutSection = () => {
             // ABOUT ME
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Get to Know <span className="text-gradient">Who I Am</span>
+            Who I Am &
+            <span className="text-gradient pl-1">What I Build</span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            A passionate developer dedicated to crafting exceptional digital experiences
+          <p className="text-muted-foreground max-w-3xl mx-auto">
+            A passionate Frontend Engineer dedicated to crafting
+            exceptional scalable, high-performance, digital
+            experiences through innovative web technologies and
+            user-centric design.
           </p>
         </div>
 

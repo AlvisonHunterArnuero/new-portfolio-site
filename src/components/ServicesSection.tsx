@@ -1,23 +1,23 @@
-import { Layers, PenTool, Code } from "lucide-react";
+import { Layers, PenTool, Code } from 'lucide-react';
 
 const services = [
   {
     icon: Layers,
-    title: "UX/UI Design",
+    title: 'UX/UI Design',
     description:
-      "I excel in designing user interfaces that prioritize user-friendliness and quick learning. Whether you need a sleek, feature-rich look or a user-centered web app interface, I have the expertise to help you achieve your goals effectively.",
+      'I design intuitive, user-centered interfaces that are easy to learn, visually engaging, and built for usability. From clean marketing websites to complex web applications, I focus on clarity, accessibility, and seamless user experiences that drive engagement.',
   },
   {
     icon: PenTool,
-    title: "Graphic Design",
+    title: 'Graphic Design',
     description:
-      "In the digital age, compelling visuals and a well-designed website are essential for effective branding. With my expertise, I can create tailored branding materials that define your unique identity and enhance your online presence.",
+      'Strong visuals are essential to building trust and recognition online. I create thoughtful graphic design and branding assets that communicate your message clearly, strengthen your identity, and support a cohesive digital presence across platforms.',
   },
   {
     icon: Code,
-    title: "Web Development",
+    title: 'Web Development',
     description:
-      "Transform your website or app with a flawless design and advanced technology. Share your needs, and I'll deliver a competitive quote and top-notch service, prioritizing your satisfaction.",
+      'I build fast, scalable, and secure websites and web applications using modern frontend technologies. Whether you’re launching a new product or improving an existing one, I translate your ideas into reliable, high-performance digital solutions aligned with your business goals.',
   },
 ];
 
@@ -33,10 +33,14 @@ const ServicesSection = () => {
             // SERVICES
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            We Turn Your Ideas Into <span className="text-gradient">Reality</span>
+            Turning Ideas Into High-Impact
+            <span className="text-gradient pl-3">
+              Digital Solutions
+            </span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
-            We offer a range of solutions to support our client's needs
+          <p className="text-muted-foreground max-w-4xl mx-auto">
+            I help businesses and creators design, build, and scale
+            modern digital products tailored to real user needs.
           </p>
         </div>
 
