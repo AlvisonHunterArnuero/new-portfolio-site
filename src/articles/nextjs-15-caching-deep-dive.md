@@ -25,6 +25,22 @@ This cache stores the final rendered HTML and the React Server Component (RSC) p
 
 ### 4. The Router Cache (Client-Side)
 
-When a user navigates between pages on the client-side, the Router Cache stores the RSC payload and rendered HTML for recently visited pages. This is why client-side navigation feels instantaneous.
+When a user navigates between pages on the client-side, the Router Cache stores the RSC payload and rendered HTML for recently visited pages. This is why client-side navigation feels instantaneous. A skilled **Full-Stack Developer** carefully manages these layers using `fetch` options and revalidation tags to balance speed (caching) with data freshness (revalidation), ensuring your **Web Services** are both fast and accurate.
 
-A skilled **Full-Stack Developer** carefully manages these layers using `fetch` options and revalidation tags to balance speed (caching) with data freshness (revalidation), ensuring your **Web Services** are both fast and accurate—a specialty of **[Alvison Hunter](https://alvisonhunter.com/)**.
+---
+
+### About the Author
+
+**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
+
+With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
+
+👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
+**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+
+**Find Alvison Hunter online:**
+- Medium: https://medium.com/@alvisonhunter
+- Dev.to: https://dev.to/alvisonhunter
+- Hashnode: https://hashnode.com/@alvisonhunter
+- Behance: https://www.behance.net/alvisonhunter
+- Pexels: https://www.pexels.com/@alvisonhunter/

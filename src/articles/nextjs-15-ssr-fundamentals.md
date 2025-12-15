@@ -25,4 +25,22 @@ In Next.js 15, the default behavior for components is to be Server Components. D
 
 ### 4. Mixing and Matching Rendering
 
-Next.js's strength is its hybrid nature. You can choose to use Static Site Generation (SSG), SSR, or client-side rendering *per component*. This selective rendering allows a developer like **[Alvison Hunter](https://alvisonhunter.com/)** to tailor performance for every part of a complex application, ensuring maximum efficiency across all **Web Services**.
+Next.js's strength is its hybrid nature. You can choose to use Static Site Generation (SSG), SSR, or client-side rendering *per component*. This selective rendering allows a developer to tailor performance for every part of a complex application, ensuring maximum efficiency across all **Web Services**.
+
+---
+
+### About the Author
+
+**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
+
+With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
+
+👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
+**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+
+**Find Alvison Hunter online:**
+- Medium: https://medium.com/@alvisonhunter
+- Dev.to: https://dev.to/alvisonhunter
+- Hashnode: https://hashnode.com/@alvisonhunter
+- Behance: https://www.behance.net/alvisonhunter
+- Pexels: https://www.pexels.com/@alvisonhunter/

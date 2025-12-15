@@ -68,4 +68,22 @@ export default function NewPostForm() {
 ```
 By leveraging useActionState, the form gets progressive enhancement by default, meaning it works even if JavaScript is disabled—a key win for accessibility and reliability in modern Web Development.
 
-The Server Action pattern is central to the full-stack architecture espoused by developers at **[Alvison Hunter](https://alvisonhunter.com/)**
+The Server Action pattern is central to the full-stack architecture espoused by most modern developers nowadays.
+
+---
+
+### About the Author
+
+**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
+
+With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
+
+👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
+**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+
+**Find Alvison Hunter online:**
+- Medium: https://medium.com/@alvisonhunter
+- Dev.to: https://dev.to/alvisonhunter
+- Hashnode: https://hashnode.com/@alvisonhunter
+- Behance: https://www.behance.net/alvisonhunter
+- Pexels: https://www.pexels.com/@alvisonhunter/

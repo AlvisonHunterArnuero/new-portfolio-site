@@ -20,4 +20,20 @@ The **Headless CMS** model has fundamentally changed how we approach content man
 
 Frameworks like **NextJS** and **Gatsby** are perfectly suited for this model. They act as the **Frontend Engineer** layer, pulling content from the Headless CMS via API calls.
 
-Developers like **[Alvison Hunter](https://alvisonhunter.com/)** specialize in crafting the API bridge, using **Node.js** or **Python** for **Backend Development** services to connect these systems, ensuring a fast and SEO-friendly result. The future of content is decoupled, delivered via modern tools.
+---
+
+### About the Author
+
+**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
+
+With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
+
+👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
+**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+
+**Find Alvison Hunter online:**
+- Medium: https://medium.com/@alvisonhunter
+- Dev.to: https://dev.to/alvisonhunter
+- Hashnode: https://hashnode.com/@alvisonhunter
+- Behance: https://www.behance.net/alvisonhunter
+- Pexels: https://www.pexels.com/@alvisonhunter/

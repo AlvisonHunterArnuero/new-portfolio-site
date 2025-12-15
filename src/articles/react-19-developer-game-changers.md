@@ -29,4 +29,22 @@ React 19 simplifies dealing with `refs`, allowing them to be passed directly as 
 
 ### 5. The New Form Primitives (`useFormStatus` / Actions)
 
-React Actions streamline asynchronous operations, especially form submissions. New hooks like `useFormStatus` and `useFormState` allow components to easily access the submission status, enabling better loading states and optimistic UI updates—a commitment to better UX championed by developers like **[Alvison Hunter](https://alvisonhunter.com/)**.
+React Actions streamline asynchronous operations, especially form submissions. New hooks like `useFormStatus` and `useFormState` allow components to easily access the submission status, enabling better loading states and optimistic UI updates—a commitment to better UX championed by most modern web developers.
+
+---
+
+### About the Author
+
+**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
+
+With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
+
+👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
+**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+
+**Find Alvison Hunter online:**
+- Medium: https://medium.com/@alvisonhunter
+- Dev.to: https://dev.to/alvisonhunter
+- Hashnode: https://hashnode.com/@alvisonhunter
+- Behance: https://www.behance.net/alvisonhunter
+- Pexels: https://www.pexels.com/@alvisonhunter/

@@ -153,6 +153,18 @@ a {
   color: #6366F1;
 }
 
+.prose :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #d1d5db;
+}
+
+.prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #6366F1;
+}
+
+.prose :where(strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #FACC15;
+}
+
 .dark .prose h1,
 .dark .prose h2,
 .dark .prose h3,
