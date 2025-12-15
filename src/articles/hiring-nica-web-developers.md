@@ -1,6 +1,6 @@
 ---
 title: Your Next Hire is in Central America—How to Find Top Nicaraguan Web Developers
-date: 2026-04-01
+date: 2025-04-01
 author: Alvison Hunter
 slug: hiring-nica-web-developers
 description: A guide for global companies looking to tap into the skilled pool of developers in Nicaragua.

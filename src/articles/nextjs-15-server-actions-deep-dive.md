@@ -1,6 +1,6 @@
 ---
 title: Next.js 15 Server Actions—The Full-Stack Developer's Guide to Seamless Data Mutation
-date: 2026-09-01
+date: 2025-09-01
 author: Alvison Hunter
 slug: nextjs-15-server-actions-deep-dive
 description: Server Actions allow you to run server-side code directly from client components, simplifying forms, state management, and API calls in Next.js 15.

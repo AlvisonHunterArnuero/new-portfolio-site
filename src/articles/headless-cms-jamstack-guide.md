@@ -1,6 +1,6 @@
 ---
 title: The Headless Revolution—Connecting Gatsby/NextJS to Your Content
-date: 2026-02-15
+date: 2025-02-15
 author: Alvison Hunter
 slug: headless-cms-jamstack-guide
 description: A practical guide on integrating decoupled content with modern frontend frameworks like NextJS and Gatsby.

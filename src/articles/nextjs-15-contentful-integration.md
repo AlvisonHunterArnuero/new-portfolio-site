@@ -1,6 +1,6 @@
 ---
 title: NextJS 15 and Contentful Content Retrieval - Advanced Patterns and Optimization
-date: 2026-08-06
+date: 2025-08-06
 author: Alvison Hunter
 slug: nextjs-15-contentful-integration
 description: Master Contentful CMS integration with NextJS 15 using App Router, Server Components, and advanced caching strategies for optimal content delivery.

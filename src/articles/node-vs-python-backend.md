@@ -1,6 +1,6 @@
 ---
 title: Node.js vs. Python—Choosing the Right Backend for Scalable Web Development
-date: 2026-03-15
+date: 2025-03-15
 author: Alvison Hunter
 slug: node-vs-python-backend
 description: A comparison of Node.js and Python for backend development, focusing on I/O operations and scaling Web Services.

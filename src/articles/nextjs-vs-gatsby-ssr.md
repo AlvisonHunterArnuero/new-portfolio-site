@@ -1,6 +1,6 @@
 ---
 title: NextJS vs. Gatsby—Choosing the Best Framework for Server-Side Rendering (SSR)
-date: 2026-04-15
+date: 2025-04-15
 author: Alvison Hunter
 slug: nextjs-vs-gatsby-ssr
 description: A breakdown of server-side rendering (SSR) and static site generation (SSG) with two leading React frameworks.

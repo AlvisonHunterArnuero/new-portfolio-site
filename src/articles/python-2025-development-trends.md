@@ -1,6 +1,6 @@
 ---
 title: Beyond Data Science—Python's 5 Key Development Trends in 2025
-date: 2026-06-15
+date: 2025-06-15
 author: Alvison Hunter
 slug: python-2025-development-trends
 description: Explore how Python is extending its reach into web development, automation, and AI-assisted coding, making it essential for any Full-Stack Developer.

@@ -184,6 +184,26 @@ a {
 }
 
 
+.dark .prose p strong,
+a {
+  color: #6366F1;
+}
+
+.dark .prose :where(li):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #6aa5ff;
+}
+
+.dark .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #aaacff;
+}
+
+.dark .prose :where(strong):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
+  color: #FACC15;
+}
+
+
+
+
 @layer utilities {
   .animate-float {
     animation: float 6s ease-in-out infinite;

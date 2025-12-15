@@ -1,6 +1,6 @@
 ---
 title: Backend Development 101—Mastering Data Modeling in Node.js
-date: 2026-05-01
+date: 2025-05-01
 author: Alvison Hunter
 slug: backend-data-modeling
 description: A guide to relational vs. NoSQL databases and effective data modeling for scalable Node.js applications.

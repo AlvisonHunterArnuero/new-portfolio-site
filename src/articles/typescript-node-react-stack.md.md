@@ -1,6 +1,6 @@
 ---
 title: Full-Stack Synergy—Why TypeScript, Node.js, and React Dominate Modern Development
-date: 2026-02-01
+date: 2025-02-01
 author: Alvison Hunter
 slug: typescript-node-react-stack
 description: Explore the power of the T-E-R-N stack and how it revolutionizes both frontend and backend development.

@@ -1,6 +1,6 @@
 ---
 title: React 19 Is Here—5 Game-Changing Features for the Modern Frontend Engineer
-date: 2026-07-15
+date: 2025-07-15
 author: Alvison Hunter
 slug: react-19-developer-game-changers
 description: Explore React Server Components, the new use() hook, and automatic optimization that simplifies state management and pushes performance boundaries.

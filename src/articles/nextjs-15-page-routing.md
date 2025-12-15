@@ -1,6 +1,6 @@
 ---
 title: NextJS 15 Page Routing - Advanced Patterns and Dynamic Routing
-date: 2026-08-03
+date: 2025-08-03
 author: Alvison Hunter
 slug: nextjs-15-page-routing
 description: Master NextJS 15's page routing system with advanced patterns, dynamic routing techniques, and performance optimization strategies for enterprise applications.

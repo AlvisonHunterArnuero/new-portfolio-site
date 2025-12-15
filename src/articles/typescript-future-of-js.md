@@ -1,6 +1,6 @@
 ---
 title: Why TypeScript is No Longer Optional for Serious JavaScript Projects
-date: 2026-05-15
+date: 2025-05-15
 author: Alvison Hunter
 slug: typescript-future-of-js
 description: Arguing why all serious Web Development professionals must adopt TypeScript to ensure code quality and prevent bugs.

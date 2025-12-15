@@ -1,6 +1,6 @@
 ---
 title: NextJS 15 Middleware - Solving Cross-Origin Errors and Security Headers
-date: 2026-08-04
+date: 2025-08-04
 author: Alvison Hunter
 slug: nextjs-15-middleware-cross-origin-fixes
 description: Comprehensive guide to fixing Cross-Origin errors in NextJS 15 using middleware, with security best practices and real-world implementation examples.

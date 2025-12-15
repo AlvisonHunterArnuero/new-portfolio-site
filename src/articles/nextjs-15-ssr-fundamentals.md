@@ -1,6 +1,6 @@
 ---
 title: NextJS 15 SSR Fundamentals—Streaming, Server Components, and the App Router
-date: 2026-08-01
+date: 2025-08-01
 author: Alvison Hunter
 slug: nextjs-15-ssr-fundamentals
 description: Master the modern Next.js approach to Server-Side Rendering (SSR) using React Server Components to maximize performance and SEO.

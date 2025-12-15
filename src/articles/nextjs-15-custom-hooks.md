@@ -1,6 +1,6 @@
 ---
 title: NextJS 15 Custom Hooks - Building Reusable Logic for Modern Applications
-date: 2026-08-05
+date: 2025-08-05
 author: Alvison Hunter
 slug: nextjs-15-custom-hooks
 description: Master NextJS 15 custom hooks for state management, data fetching, and UI interactions with TypeScript and performance optimization techniques.

@@ -1,6 +1,6 @@
 ---
 title: From Managua to the World—The Growing Global Impact of Nicaraguan Web Developers
-date: 2026-06-01
+date: 2025-06-01
 author: Alvison Hunter
 slug: nica-developer-global-impact
 description: Highlighting the contributions and opportunities for web developers working from Nicaragua in the global tech space.

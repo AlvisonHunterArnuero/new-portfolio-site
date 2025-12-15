@@ -1,6 +1,6 @@
 ---
 title: 7 TypeScript Tips for High-Performance React Components
-date: 2026-03-01
+date: 2025-03-01
 author: Alvison Hunter
 slug: react-performance-typescript
 description: Practical ways a Frontend Engineer can leverage TypeScript to optimize React rendering and minimize bugs.

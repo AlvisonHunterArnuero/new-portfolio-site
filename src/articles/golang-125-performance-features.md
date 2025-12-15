@@ -1,6 +1,6 @@
 ---
 title: Go 1.25+—5 Features That Make Golang the King of Performance and Reliability
-date: 2026-07-01
+date: 2025-07-01
 author: Alvison Hunter
 slug: golang-125-performance-features
 description: Dive into the experimental garbage collector, flight recorder, and tooling enhancements that solidify Golang’s position for high-scale backend services.
