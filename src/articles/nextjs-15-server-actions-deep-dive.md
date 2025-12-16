@@ -48,16 +48,6 @@ Next.js 15 takes a huge leap forward by fully embracing React Server Actions, ch
 
 This change simplifies development, reduces boilerplate, and keeps your server logic tightly connected to your components—making Full-Stack coding more intuitive than ever.
 
-**Where should this live within the app’s folder structure?**
-A clean and scalable approach is to organize it under a dedicated **Server Actions** directory, structured like this:
-```text
-src/
- ├─ actions/
- │   └─ post.ts        // Server Action (server-only)
- └─ components/
-     └─ NewPostForm.tsx // Client Component
-```
-
 ### How to Define and Use a Server Action
 As mentioned earlier in this article, a **Server Action** is simply an `async` function that includes the `'use server'` directive. This directive signals to Next.js that the function must run **exclusively on the server**, allowing it to act as a secure, server-only endpoint.
 
