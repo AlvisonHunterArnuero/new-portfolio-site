@@ -29,12 +29,11 @@ The choice depends on the project's content speed and complexity. A skilled **Fu
 
 With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
 
-👉 Explore **custom React & Vue web development**, **frontend architecture**, and **full-stack solutions** at
-**[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
+👉 Explore **custom React, NextJS & Vue web development**, **frontend architecture**, and **full-stack solutions** at **[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
 
 **Find Alvison Hunter online:**
-- Medium: https://medium.com/@alvisonhunter
-- Dev.to: https://dev.to/alvisonhunter
-- Hashnode: https://hashnode.com/@alvisonhunter
-- Behance: https://www.behance.net/alvisonhunter
-- Pexels: https://www.pexels.com/@alvisonhunter/
+- **Medium:** https://medium.com/@alvisonhunter
+- **Dev.to:** https://dev.to/alvisonhunter
+- **Hashnode:** https://hashnode.com/@alvisonhunter
+- **Behance:** https://www.behance.net/alvisonhunter
+- **Pexels:** https://www.pexels.com/@alvisonhunter/
