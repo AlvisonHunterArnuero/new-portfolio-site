@@ -15,21 +15,191 @@ image: /images/react-19-thumb.png
 
 RSC allows rendering components entirely on the server, significantly reducing the JavaScript bundle size shipped to the client. This is the ultimate optimization for Time-to-First-Byte (TTFB) and is a primary driver for modern **Web Development** architectures.
 
+```javascript
+// Before: Client Component fetching data
+'use client';
+import { useState, useEffect } from 'react';
+
+function ProductList() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    fetch('/api/products')
+      .then(res => res.json())
+      .then(setProducts);
+  }, []);
+
+  return <div>{/* render products */}</div>;
+}
+
+// After: Server Component (no client JS needed)
+async function ProductList() {
+  const products = await db.query('SELECT * FROM products'); // Direct DB access
+
+  return (
+    <div>
+      {products.map(p => <Product key={p.id} {...p} />)}
+    </div>
+  );
+}
+```
+
 ### 2. The Powerful `use()` Hook
 
 The new `use()` hook revolutionizes asynchronous data handling. It allows components to wait for Promises (like data fetching) without using `useEffect` or `useState`, simplifying data flow and integrating seamlessly with **Suspense for Data Fetching**.
+
+```javascript
+// Before: useEffect + useState boilerplate
+function UserProfile({ userId }) {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchUser(userId).then(data => {
+      setUser(data);
+      setLoading(false);
+    });
+  }, [userId]);
+
+  if (loading) return <Spinner />;
+  return <Profile user={user} />;
+}
+
+// After: Clean with use() + Suspense
+function UserProfile({ userId }) {
+  const user = use(fetchUser(userId)); // Promise passed directly
+
+  return <Profile user={user} />;
+}
+
+// Wrap in Suspense boundary
+<Suspense fallback={<Spinner />}>
+  <UserProfile userId="123" />
+</Suspense>
+```
 
 ### 3. Automatic Optimization (The React Compiler)
 
 The upcoming React Compiler can automatically memoize and optimize component rendering. This eliminates the need for manually wrapping code in `useMemo`, `useCallback`, and `memo`, removing a huge source of complexity and freeing up the **Frontend Engineer** to focus on logic.
 
+```javascript
+// Before: Manual memoization clutter
+const ProductList = memo(function ProductList({ products, onSelect }) {
+  const filtered = useMemo(() =>
+    products.filter(p => p.inStock), [products]);
+
+  const handleSelect = useCallback((id) => {
+    onSelect(id);
+  }, [onSelect]);
+
+  return <List items={filtered} onSelect={handleSelect} />;
+});
+
+// After: React Compiler does it automatically
+function ProductList({ products, onSelect }) {
+  const filtered = products.filter(p => p.inStock);
+
+  const handleSelect = (id) => {
+    onSelect(id);
+  };
+
+  return <List items={filtered} onSelect={handleSelect} />;
+}
+// No hooks needed - compiler optimizes re-renders
+
+```
+
 ### 4. Simplified Ref Handling
 
 React 19 simplifies dealing with `refs`, allowing them to be passed directly as props without needing the boilerplate of `forwardRef`. This minor change cleans up component composition and improves code readability.
 
+```javascript
+// Before: forwardRef boilerplate
+const Input = forwardRef(function Input(props, ref) {
+  return <input {...props} ref={ref} />;
+});
+
+// Usage:
+function Form() {
+  const inputRef = useRef();
+  return <Input ref={inputRef} />;
+}
+
+// After: Ref as regular prop
+function Input({ ref, ...props }) {
+  return <input {...props} ref={ref} />;
+}
+
+// Usage (ref passed naturally):
+function Form() {
+  const inputRef = useRef();
+  return <Input ref={inputRef} />;
+}
+```
+
 ### 5. The New Form Primitives (`useFormStatus` / Actions)
 
 React Actions streamline asynchronous operations, especially form submissions. New hooks like `useFormStatus` and `useFormState` allow components to easily access the submission status, enabling better loading states and optimistic UI updates—a commitment to better UX championed by most modern web developers.
+
+
+```javascript
+// Before: Manual state management
+function SignupForm() {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  async function handleSubmit(formData) {
+    setLoading(true);
+    try {
+      await signup(formData);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      {error && <ErrorMessage>{error}</ErrorMessage>}
+      <button disabled={loading}>
+        {loading ? 'Signing up...' : 'Sign Up'}
+      </button>
+    </form>
+  );
+}
+
+// After: Built-in form handling
+import { useFormStatus, useFormState } from 'react-dom';
+
+function SubmitButton() {
+  const { pending } = useFormStatus(); // No prop drilling needed!
+
+  return (
+    <button disabled={pending}>
+      {pending ? 'Signing up...' : 'Sign Up'}
+    </button>
+  );
+}
+
+function SignupForm() {
+  const [state, formAction] = useFormState(signupAction, null);
+
+  return (
+    <form action={formAction}>
+      {state?.error && <ErrorMessage>{state.error}</ErrorMessage>}
+      <SubmitButton />
+    </form>
+  );
+}
+
+async function signupAction(prevState, formData) {
+  // Server action - runs on server with Next.js/Remix
+  const user = await db.users.create({ email: formData.get('email') });
+  return { success: true, user };
+}
+
+```
 
 ---
 
