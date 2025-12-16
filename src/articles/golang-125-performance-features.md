@@ -31,19 +31,3 @@ Flaky tests are a nightmare. Go 1.25 introduced `testing/synctest` to create det
 
 Go's runtime now smartly detects the CPU limits imposed by Linux containers (like Docker), ensuring that Go applications do not over-provision or under-utilize resources. This intelligent scheduling improves efficiency, a focus for high-caliber new era developers when deploying microservices.
 
----
-
-### About the Author
-
-**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
-
-With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
-
-👉 Explore **custom React, NextJS & Vue web development**, **frontend architecture**, and **full-stack solutions** at **[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
-
-**Find Alvison Hunter online:**
-- **Medium:** https://medium.com/@alvisonhunter
-- **Dev.to:** https://dev.to/alvisonhunter
-- **Hashnode:** https://hashnode.com/@alvisonhunter
-- **Behance:** https://www.behance.net/alvisonhunter
-- **Pexels:** https://www.pexels.com/@alvisonhunter/

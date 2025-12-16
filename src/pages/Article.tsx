@@ -7,6 +7,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { BookOpen } from 'lucide-react';
 import { convertToLocaleDate } from '@/utils/convertToLocaleDate';
 import FloatingAnchor from '@/components/FloatingAnchor';
+import Author from '@/components/Author';
 
 const Article: React.FC = () => {
   // useParams returns a map of string parameters
@@ -68,6 +69,7 @@ const Article: React.FC = () => {
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {article.content}
           </ReactMarkdown>
+         <Author />
         </div>
       </div>
       <FloatingAnchor

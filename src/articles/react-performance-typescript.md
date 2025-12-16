@@ -26,20 +26,3 @@ Use strict interfaces (`interface`) for props rather than basic types to enforce
 ### 4. Avoiding "Any" at All Costs
 
 The moment you resort to `any`, you lose the performance safeguard TypeScript provides. A dedicated **Full-Stack Developer** emphasizes strict typing to maintain high standards in **Software Engineering**.
-
----
-
-### About the Author
-
-**[Alvison Hunter](https://alvisonhunter.com/)** is a **Full-Stack Software Engineer** with strong specialization in **frontend engineering** and **modern JavaScript ecosystems**. He builds fast, scalable, and SEO-optimized web applications using **React, Next.js, Vue, Node.js**, and cloud-native architectures.
-
-With a deep focus on **clean UI design**, **performance**, and **maintainable code**, **[Alvison](https://alvisonhunter.com/)** helps businesses and creators turn ideas into reliable digital products.
-
-👉 Explore **custom React, NextJS & Vue web development**, **frontend architecture**, and **full-stack solutions** at **[https://www.codecrafterslabs.com](https://www.codecrafterslabs.com)**
-
-**Find Alvison Hunter online:**
-- **Medium:** https://medium.com/@alvisonhunter
-- **Dev.to:** https://dev.to/alvisonhunter
-- **Hashnode:** https://hashnode.com/@alvisonhunter
-- **Behance:** https://www.behance.net/alvisonhunter
-- **Pexels:** https://www.pexels.com/@alvisonhunter/
