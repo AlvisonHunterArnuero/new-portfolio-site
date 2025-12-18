@@ -5,19 +5,19 @@ const services = [
     icon: Layers,
     title: 'UX/UI Design',
     description:
-      'I design intuitive, user-centered interfaces that are easy to learn, visually engaging, and built for usability. From clean marketing websites to complex web applications, I focus on clarity, accessibility, and seamless user experiences that drive engagement.',
+      'User-focused design that feels intuitive, looks polished, and works effortlessly. I create clear, accessible interfaces for websites and web apps that improve usability, engagement, and conversion.',
   },
   {
     icon: PenTool,
     title: 'Graphic Design',
     description:
-      'Strong visuals are essential to building trust and recognition online. I create thoughtful graphic design and branding assets that communicate your message clearly, strengthen your identity, and support a cohesive digital presence across platforms.',
+      'Visual identity that builds trust and recognition. I design clean, purposeful branding and digital assets that communicate clearly and stay consistent across all platforms.',
   },
   {
     icon: Code,
     title: 'Web Development',
     description:
-      'I build fast, scalable, and secure websites and web applications using modern frontend technologies. Whether you’re launching a new product or improving an existing one, I translate your ideas into reliable, high-performance digital solutions aligned with your business goals.',
+      'Precision-built web solutions — fast, scalable, and secure. From new products to performance, I transform ideas into reliable, high-quality digital experiences designed to achieve your business goals.',
   },
 ];
 
@@ -40,7 +40,8 @@ const ServicesSection = () => {
           </h2>
           <p className="text-muted-foreground max-w-4xl mx-auto">
             I help businesses and creators design, build, and scale
-            modern digital products tailored to real user needs.
+            modern digital experiences that solve real problems and
+            deliver measurable results.
           </p>
         </div>
 

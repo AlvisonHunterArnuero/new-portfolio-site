@@ -3,30 +3,15 @@ const techIcons = [
   { name: 'TypeScript', color: '#3178C6' },
   { name: 'React', color: '#61DAFB' },
   { name: 'Vue.js', color: '#4FC08D' },
-  { name: 'Angular.js', color: '#DD0031' },
   { name: 'Node.js', color: '#339933' },
   { name: 'Python', color: '#3776AB' },
+  { name: 'Nextjs', color: '#47A248' },
   { name: 'MongoDB', color: '#47A248' },
   { name: 'PostgreSQL', color: '#4169E1' },
   { name: 'Docker', color: '#2496ED' },
   { name: 'AWS', color: '#FF9900' },
   { name: 'GraphQL', color: '#E10098' },
-  { name: 'Mantine Library', color: '#E04E39' },
-  { name: 'Tailwind CSS', color: '#11557C' },
-  { name: 'Material UI', color: '#2684FF' },
-  { name: 'Semantic UI', color: '#009688' },
-  { name: 'Materialize', color: '#00ADD8' },
-  { name: 'Lucide', color: '#00C1B5' },
-  { name: 'Tabler', color: '#00AD9F' },
-  { name: 'BootStrap', color: '#2D2D2D' },
-  { name: 'Intercom Messenger', color: '#8BC34A' },
-  { name: 'MixPanel Analytics', color: '#CC2927' },
-  { name: 'Amplitude AI analytics', color: '#00C1B5' },
-  { name: 'Sentry IO', color: '#555555' },
-  { name: 'Datadog', color: '#7B68EE' },
-  { name: 'Zendesk', color: '#F06A6A' },
-  { name: 'GenesysCloud', color: '#4B275F' },
-  { name: 'LivePerson', color: '#5D2EE8' },
+  { name: 'Tailwind CSS', color: '#06B6D4' },
 ];
 
 const TechSection = () => {
@@ -42,12 +27,12 @@ const TechSection = () => {
             <span className="text-gradient">Worked With</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I have a strong technical background, starting with Visual
-            Basic and Borland Delphi 6, and progressing to ASP.NET
-            with C#, jQuery, JavaScript, AngularJS, VBA for O365,
-            Google App Script, VueJS, React, and EmberJS. I've also
-            ventured into Python with Flask and am currently studying
-            Go.
+            I combine deep technical expertise with modern frameworks
+            to deliver robust, scalable applications. This diverse
+            experience allows me to select the optimal,
+            high-performance technology—whether modern or legacy—to
+            build solutions that are secure, fast, and aligned with
+            your business objectives.
           </p>
         </div>
 

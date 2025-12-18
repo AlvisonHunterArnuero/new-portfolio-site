@@ -10,39 +10,39 @@ import {
 const aboutCards = [
   {
     icon: Palette,
-    title: 'Web & Graphic Design, Branding, UX/UI & Tech Enthusiast',
+    title: 'Design & Development',
     description:
-      'Senior Frontend Engineer focused on crafting intuitive, accessible, and high-performance user interfaces. Experienced in responsive design, design systems, and component-driven architectures that seamlessly connect design and engineering.',
+      'Focused on building intuitive, accessible interfaces using RWD, design systems, & component‑driven architecture to bridge design and engineering seamlessly.',
   },
   {
     icon: Code2,
-    title: 'Web Development with JavaScript & Python',
+    title: 'Core Development',
     description:
-      'Frontend-focused Web Developer specializing in modern JavaScript and TypeScript frameworks such as React, Next.js, Vue, and Angular. Brings supporting backend experience with Python, Flask, FastAPI, Node.js, and API-driven systems.',
+      'Specialized in modern frontend frameworks like React, Next.js, Vue, and TypeScript, with supporting backend experience in Python, Node.js, and API‑driven systems.',
   },
   {
     icon: Layers,
-    title: 'Frontend Architecture, Performance & Scalability',
+    title: 'Architecture, Performance & Scalability',
     description:
-      'Expert in building scalable frontend architectures with a strong emphasis on performance, maintainability, accessibility, and clean code. Passionate about long-term UI sustainability, optimized user flows, and real business impact.',
+      'Expert in architecting maintainable, high‑performance frontends with a strong emphasis on accessibility, clean code, and long‑term UI sustainability.',
   },
   {
     icon: Users,
-    title: 'Engineering Leadership, Mentorship & Collaboration',
+    title: 'Leadership & Mentorship',
     description:
-      'Former Head of Web Development with experience leading teams in Agile environments. Skilled in mentoring developers, enforcing frontend standards, and collaborating cross-functionally to deliver high-quality software solutions.',
+      'Former Head of Web Development experienced in leading Agile teams, mentoring developers, and collaborating cross‑functionally to deliver high‑quality software solutions.',
   },
   {
     icon: Heart,
-    title: 'Founder & Managing Partner of CodeCrafters Labs',
+    title: 'Founder, CodeCrafters Labs',
     description:
-      'Founder of CodeCrafters Labs, mentoring aspiring developers through structured programs focused on modern frontend technologies, best practices, and real-world readiness for professional software careers.',
+      'Founder of a mentorship platform that guides aspiring developers through structured programs in modern frontend technologies and industry best practices.',
   },
   {
     icon: Baby,
-    title: 'Proud Father of Two, Lifelong Learner',
+    title: 'Beyond Code',
     description:
-      'Proud father of two incredible sons whose curiosity, resilience, and creativity inspire my discipline, leadership, and problem-solving mindset—values I bring into every project and professional relationship.',
+      'Inspired daily by my two sons, whose curiosity and creativity reinforce the discipline and problem‑solving mindset I apply to every project.',
   },
 ];
 
@@ -59,10 +59,9 @@ const AboutSection = () => {
             <span className="text-gradient pl-1">What I Build</span>
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            A passionate Frontend Engineer dedicated to crafting
-            exceptional scalable, high-performance, digital
-            experiences through innovative web technologies and
-            user-centric design.
+            A Senior Frontend Engineer dedicated to crafting scalable,
+            high‑performance web applications through innovative
+            technology and user‑centric design.
           </p>
         </div>
 
