@@ -1,13 +1,17 @@
-import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import AboutSection from "@/components/AboutSection";
-import SkillsSection from "@/components/SkillsSection";
-import ServicesSection from "@/components/ServicesSection";
-import TechSection from "@/components/TechSection";
-import PortfolioSection from "@/components/PortfolioSection";
-import CertificationsSection from "@/components/CertificationsSection";
-import ContactSection from "@/components/ContactSection";
-import Footer from "@/components/Footer";
+import TestimonialsCarousel, {
+  Testimonial,
+} from '@/components/TestimonialsCarousel';
+import { testimonials } from '@/lib/carousselTestimonials';
+import Navbar from '@/components/Navbar';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import SkillsSection from '@/components/SkillsSection';
+import ServicesSection from '@/components/ServicesSection';
+import TechSection from '@/components/TechSection';
+import PortfolioSection from '@/components/PortfolioSection';
+import CertificationsSection from '@/components/CertificationsSection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
@@ -21,6 +25,7 @@ const Index = () => {
         <TechSection />
         <PortfolioSection />
         <CertificationsSection />
+        <TestimonialsCarousel testimonials={testimonials} />
         <ContactSection />
       </main>
       <Footer />

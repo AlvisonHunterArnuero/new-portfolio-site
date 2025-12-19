@@ -38,7 +38,7 @@ const ServicesSection = () => {
               Digital Solutions
             </span>
           </h2>
-          <p className="text-muted-foreground max-w-4xl mx-auto">
+          <p className="text-muted-foreground max-w-2xl mx-auto">
             I help businesses and creators design, build, and scale
             modern digital experiences that solve real problems and
             deliver measurable results.
