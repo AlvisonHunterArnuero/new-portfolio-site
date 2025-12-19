@@ -16,7 +16,7 @@ const techIcons = [
 
 const TechSection = () => {
   return (
-    <section className="py-24 bg-secondary/30">
+    <section id="stack" className="py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="font-mono text-primary text-sm mb-3 tracking-wider">

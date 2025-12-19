@@ -8,8 +8,10 @@ const navLinks = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills-Set' },
   { href: '#services', label: 'Services' },
+  { href: '#stack', label: 'Tech Stack' },
   { href: '#portfolio', label: 'Portfolio' },
   { href: '#certifications', label: 'Certifications' },
+  { href: '#testimonials', label: 'Testimonials' },
   { href: '#contact', label: 'Contact' },
 ];
 

@@ -73,6 +73,7 @@ export const TestimonialsCarousel = ({
 
   return (
     <section
+      id="testimonials"
       className={cn('py-24 relative overflow-hidden', className)}
     >
       {/* Decorative Background Elements */}
