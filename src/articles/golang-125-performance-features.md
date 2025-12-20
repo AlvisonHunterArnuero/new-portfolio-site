@@ -1,5 +1,5 @@
 ---
-title: Why Backend Developers Love Go: 5 New Features Explained Simply
+title: Why Backend Developers Love Go - 5 New Features Explained Simply
 date: 2025-07-01
 author: Alvison Hunter
 slug: golang-125-performance-features

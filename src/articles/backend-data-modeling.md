@@ -1,5 +1,5 @@
 ---
-title: Build Flawless Backends: Master Node.js Data Models (SQL & NoSQL)
+title: Build Flawless Backends - Master Node.js Data Models (SQL & NoSQL)
 date: 2025-05-01
 author: Alvison Hunter
 slug: backend-data-modeling
@@ -57,7 +57,7 @@ In this example:
 - SQL ensures that each post belongs to a valid user.
 
 
-### NNoSQL Databases
+### NoSQL Databases
 
 NoSQL databases like MongoDB are designed for flexibility and scalability. They shine when:
 - Data doesn’t fit neatly into tables.
