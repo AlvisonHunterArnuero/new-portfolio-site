@@ -1,0 +1,27 @@
+# Next.js & React 2025 Standard
+
+## 🧠 Core Strategy (Free Tier Optimization)
+- **Be Concise:** Provide code snippets for changes, not the entire file.
+- **Context Awareness:** Refer to existing components in @/components before creating new ones.
+- **Error Prevention:** Always check for 'any' types; enforce strict TypeScript.
+
+## 🏗 Framework & Tech Stack
+- **Next.js 15 (App Router):** Default to Server Components. Use 'use client' only when strictly necessary (hooks/interactivity).
+- **Styling:** Tailwind CSS only. Follow mobile-first utility patterns. Use `cn()` utility for conditional classes.
+- **State:** Use React Context for small global state, Zustand for complex state.
+- **Data Fetching:** Prefer Server Actions over API routes for form submissions and internal mutations.
+
+## 📁 Naming & Folder Conventions
+- **Files:** PascalCase for components (e.g., `UserCard.tsx`), kebab-case for directories and others.
+- **Exports:** Use **Named Exports** for components, **Default Exports** only for Next.js Pages/Layouts.
+- **Imports:** Use absolute paths with the `@/` alias.
+
+## 🛠 Coding Standards
+- **Functions:** Prefer `const Name = () => {}` for components.
+- **Props:** Always define an `interface` named `[ComponentName]Props`.
+- **Early Returns:** Use guard clauses to handle errors/loading early and avoid nested `if` statements.
+- **TypeScript:** Avoid `enums`, use literal types or `const` objects.
+
+## 🚀 Speed Hacks
+- When asked to "Add a feature," first suggest the file structure changes. Wait for approval before writing code.
+- If a linter error occurs, prioritize fixing it using "Fix with AI" (which often uses smaller, faster models).
